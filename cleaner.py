@@ -2,7 +2,7 @@
 import pandas as pd
 
 # %%
-fname = input("Enter file name with extension")
+fname = input("Enter file name with extension\n\n")
 train = pd.read_csv(fname)
 
 # %%
@@ -44,4 +44,5 @@ train["Maximum_price"].interpolate(method="linear", inplace=True)
 train["Selling_Price"].interpolate(method="linear", inplace=True)
 
 # %%
+print('File saved as '+fname)
 train.to_csv(fname)
