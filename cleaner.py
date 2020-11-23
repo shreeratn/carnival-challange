@@ -2,7 +2,7 @@
 import pandas as pd
 
 # %%
-fname = input("Enter file name with extension\n\n")
+fname = input("Enter file name with extension\n\n").strip()
 train = pd.read_csv(fname)
 
 # %%
