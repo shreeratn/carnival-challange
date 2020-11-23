@@ -45,7 +45,7 @@ train["Selling_Price"].interpolate(method="linear", inplace=True)
 
 # %%
 print("\n\nFile saved as ................   " + ('clean'+fname))
-train.to_csv('clean_'+fname)
+train.to_csv(('clean_'+fname), index=False)
 
 for i in range(300):
     continue
