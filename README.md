@@ -1,4 +1,4 @@
-# Rank #1 in HackerEarth Machine Learning Challenge: Carnival Wars!
+# Rank #22 in HackerEarth Machine Learning Challenge: Carnival Wars!
 
 ### Accuracy - 90.90774
 
